@@ -4,13 +4,12 @@
     "type": "library",
     "keywords": [
         "wordpress",
-        "plugin",
         "psr",
         "autoloader",
         "composer"
     ],
     "homepage": "https://github.com/widoz/wordpress-template",
-    "license": "GPL-2",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "Guido Scialfa",
