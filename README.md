@@ -1,5 +1,5 @@
 # WordPress Template
-WordPress Template is a composer package consumed by [https://github.com/widoz/unprefix](Unprefix) and [https://github.com/widoz/twig-wordpress-view](Twig WordPress View)
+WordPress Template is a composer package consumed by [unPrefix](https://github.com/widoz/unprefix) and [Twig WordPress View](https://github.com/widoz/twig-wordpress-view)
 
 
 ## Requirements
