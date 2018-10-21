@@ -18,6 +18,14 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "WordPressTemplate\\": "src"
+        }
+    },
     "require": {
         "php": ">=7.1"
     },
