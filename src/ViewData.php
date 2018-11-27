@@ -18,7 +18,7 @@ namespace WordPressTemplate;
  *
  * @author Guido Scialfa <dev@guidoscialfa.com>
  */
-interface Data
+interface ViewData
 {
 
 }
