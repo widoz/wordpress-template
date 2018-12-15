@@ -10,8 +10,7 @@
         stopOnFailure="false">
     <testsuites>
         <testsuite name="Test">
-            <directory suffix="Test.php">./tests/unit/src/</directory>
-            <directory suffix="Test.php">./tests/integration/src/</directory>
+            <directory suffix="Test.php">./tests/unit/</directory>
         </testsuite>
     </testsuites>
     <filter>

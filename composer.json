@@ -23,7 +23,8 @@
             "src/"
         ],
         "psr-4": {
-            "WordPressTemplate\\": "src"
+            "WordPressTemplate\\": "src",
+            "WordPressTemplate\\Tests\\Unit\\": "tests/unit"
         }
     },
     "require": {
