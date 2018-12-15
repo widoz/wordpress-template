@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "167ebd70d72a0d7d662201c1ba72a726",
+    "content-hash": "e1e76d4f4b97b5831d27ba7239901c21",
     "packages": [],
     "packages-dev": [
         {
@@ -1911,6 +1911,48 @@
             "time": "2018-05-29T14:25:02+00:00"
         },
         {
+            "name": "widoz/project-tests-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/widoz/project-tests-helper.git",
+                "reference": "732b86a450be6d1b283bb36ebc443faa254be803"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/732b86a450be6d1b283bb36ebc443faa254be803",
+                "reference": "732b86a450be6d1b283bb36ebc443faa254be803",
+                "shasum": ""
+            },
+            "require": {
+                "php": "7.*"
+            },
+            "require-dev": {
+                "brain/monkey": "2.0.*",
+                "composer/composer": "^1.9@dev",
+                "mockery/mockery": "1.0.*",
+                "phpunit/phpunit": "7.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ProjectTestsHelper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guido Scialfa",
+                    "email": "dev@guidoscialfa.com"
+                }
+            ],
+            "description": "Php Tests Helper library to include into your projects",
+            "time": "2018-12-15T20:16:10+00:00"
+        },
+        {
             "name": "wimg/php-compatibility",
             "version": "8.2.0",
             "source": {
@@ -1961,6 +2003,7 @@
                 "phpcs",
                 "standards"
             ],
+            "abandoned": "phpcompatibility/php-compatibility",
             "time": "2018-07-17T13:42:26+00:00"
         },
         {
@@ -2007,7 +2050,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "brain/monkey": 20
+        "brain/monkey": 20,
+        "widoz/project-tests-helper": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

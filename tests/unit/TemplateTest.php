@@ -3,6 +3,7 @@
 
 namespace WordPressTemplate\Tests\Unit;
 
+use ProjectTestsHelper\Phpunit\TestCase;
 use WordPressTemplate\Controller;
 use WordPressTemplate\Template;
 use WordPressTemplate\ViewData;
