@@ -13,14 +13,7 @@ declare(strict_types=1);
 
 namespace WordPressTemplate;
 
-use WordPressModel\Model;
-
 interface ViewData
 {
-    /**
-     * Retrieve the Template Model
-     *
-     * @return Model
-     */
-    public function model(): Model;
+
 }
