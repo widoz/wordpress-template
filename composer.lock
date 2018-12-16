@@ -1916,12 +1916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/widoz/project-tests-helper.git",
-                "reference": "732b86a450be6d1b283bb36ebc443faa254be803"
+                "reference": "d5a916fbd2689977a4444ecff5356a9f31a9c862"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/732b86a450be6d1b283bb36ebc443faa254be803",
-                "reference": "732b86a450be6d1b283bb36ebc443faa254be803",
+                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/d5a916fbd2689977a4444ecff5356a9f31a9c862",
+                "reference": "d5a916fbd2689977a4444ecff5356a9f31a9c862",
                 "shasum": ""
             },
             "require": {
@@ -1950,7 +1950,7 @@
                 }
             ],
             "description": "Php Tests Helper library to include into your projects",
-            "time": "2018-12-15T20:16:10+00:00"
+            "time": "2018-12-16T17:07:21+00:00"
         },
         {
             "name": "wimg/php-compatibility",
