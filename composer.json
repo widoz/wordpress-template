@@ -31,9 +31,10 @@
         "php": ">=7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.5.5",
-        "brain/monkey": "dev-master",
-        "inpsyde/php-coding-standards": "^0.13.3",
-        "widoz/project-tests-helper": "dev-master"
+        "phpunit/phpunit": "6.2.*",
+        "brain/monkey": "2.2.*",
+        "inpsyde/php-coding-standards": "^0.13",
+        "widoz/project-tests-helper": "dev-master",
+        "sebastian/global-state": "1.1.*"
     }
 }
