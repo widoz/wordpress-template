@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "069df807d737a95b483713d4c85b8f0a",
+    "content-hash": "e4fba44a57d04d6d535fc799a60b859d",
     "packages": [],
     "packages-dev": [
         {
@@ -1909,21 +1909,71 @@
             "time": "2018-05-29T14:25:02+00:00"
         },
         {
+            "name": "widoz/bem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/widoz/bem.git",
+                "reference": "f9f9fa2f42b9694213ab5aca52c86ccbc2a7f343"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/widoz/bem/zipball/f9f9fa2f42b9694213ab5aca52c86ccbc2a7f343",
+                "reference": "f9f9fa2f42b9694213ab5aca52c86ccbc2a7f343",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "brain/monkey": "dev-master",
+                "inpsyde/php-coding-standards": "^0.13.0@dev",
+                "phpunit/phpunit": "~6.5.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Widoz\\BemScope\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Guido Scialfa",
+                    "email": "dev@guidoscialfa.com"
+                }
+            ],
+            "description": "Bem convention as class",
+            "homepage": "https://github.com/widoz/bem",
+            "time": "2018-12-15T14:03:38+00:00"
+        },
+        {
             "name": "widoz/project-tests-helper",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/widoz/project-tests-helper.git",
-                "reference": "92b20291ccf44eb8d60c4833e92ea2aeb9014e5a"
+                "reference": "2be9ea16d54d4c2f0d8fe755a20318286cb5b102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/92b20291ccf44eb8d60c4833e92ea2aeb9014e5a",
-                "reference": "92b20291ccf44eb8d60c4833e92ea2aeb9014e5a",
+                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/2be9ea16d54d4c2f0d8fe755a20318286cb5b102",
+                "reference": "2be9ea16d54d4c2f0d8fe755a20318286cb5b102",
                 "shasum": ""
             },
             "require": {
-                "php": "7.*"
+                "php": ">=7.0"
             },
             "require-dev": {
                 "brain/monkey": "2.0.*",
@@ -1948,7 +1998,68 @@
                 }
             ],
             "description": "Php Tests Helper library to include into your projects",
-            "time": "2018-12-16T17:13:40+00:00"
+            "time": "2018-12-16T18:25:19+00:00"
+        },
+        {
+            "name": "widoz/wordpress-model",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/widoz/wordpress-model.git",
+                "reference": "c82ed08402df132cb91cb9281e0bb8d9afa08819"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/widoz/wordpress-model/zipball/c82ed08402df132cb91cb9281e0bb8d9afa08819",
+                "reference": "c82ed08402df132cb91cb9281e0bb8d9afa08819",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "widoz/bem": "dev-master"
+            },
+            "require-dev": {
+                "brain/monkey": "dev-master",
+                "inpsyde/php-coding-standards": "^0.13.3",
+                "phpunit/phpunit": "~6.5.5"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "WordPressModel\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Guido Scialfa",
+                    "email": "dev@guidoscialfa.com",
+                    "homepage": "http://www.guidoscialfa.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Reusable models for your themes or plugins",
+            "homepage": "https://github.com/widoz/wordpress-theme-model",
+            "keywords": [
+                "mvc",
+                "plugin",
+                "psr",
+                "template",
+                "themes",
+                "wordpress"
+            ],
+            "time": "2018-10-14T09:38:35+00:00"
         },
         {
             "name": "wimg/php-compatibility",
@@ -2048,7 +2159,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "widoz/project-tests-helper": 20
+        "widoz/project-tests-helper": 20,
+        "widoz/wordpress-model": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
