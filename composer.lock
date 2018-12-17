@@ -1773,12 +1773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "ab6caa0a7e23bbe48d8a12c5c7a3c2f1ab1dad9e"
+                "reference": "4274b5a139f0305443ed1b6709448bb9b3a45a4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ab6caa0a7e23bbe48d8a12c5c7a3c2f1ab1dad9e",
-                "reference": "ab6caa0a7e23bbe48d8a12c5c7a3c2f1ab1dad9e",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4274b5a139f0305443ed1b6709448bb9b3a45a4f",
+                "reference": "4274b5a139f0305443ed1b6709448bb9b3a45a4f",
                 "shasum": ""
             },
             "require": {
@@ -1816,7 +1816,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-12-12T03:06:35+00:00"
+            "time": "2018-12-17T02:43:59+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -1964,12 +1964,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/widoz/project-tests-helper.git",
-                "reference": "2be9ea16d54d4c2f0d8fe755a20318286cb5b102"
+                "reference": "f7f20626bea32738e026c48aa16d7f2e8c421769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/2be9ea16d54d4c2f0d8fe755a20318286cb5b102",
-                "reference": "2be9ea16d54d4c2f0d8fe755a20318286cb5b102",
+                "url": "https://api.github.com/repos/widoz/project-tests-helper/zipball/f7f20626bea32738e026c48aa16d7f2e8c421769",
+                "reference": "f7f20626bea32738e026c48aa16d7f2e8c421769",
                 "shasum": ""
             },
             "require": {
@@ -1983,6 +1983,9 @@
             },
             "type": "library",
             "autoload": {
+                "classmap": [
+                    "src/"
+                ],
                 "psr-4": {
                     "ProjectTestsHelper\\": "src/"
                 }
@@ -1998,7 +2001,7 @@
                 }
             ],
             "description": "Php Tests Helper library to include into your projects",
-            "time": "2018-12-16T18:25:19+00:00"
+            "time": "2018-12-16T18:26:16+00:00"
         },
         {
             "name": "widoz/wordpress-model",
