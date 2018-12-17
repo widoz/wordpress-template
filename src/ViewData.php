@@ -13,11 +13,6 @@ declare(strict_types=1);
 
 namespace WordPressTemplate;
 
-/**
- * Interface Data
- *
- * @author Guido Scialfa <dev@guidoscialfa.com>
- */
 interface ViewData
 {
 
