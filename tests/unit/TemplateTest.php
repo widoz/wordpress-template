@@ -6,7 +6,7 @@ namespace WordPressTemplate\Tests\Unit;
 use ProjectTestsHelper\Phpunit\TestCase;
 use WordPressTemplate\Controller;
 use WordPressTemplate\Template;
-use WordPressTemplate\ViewData;
+use WordPressTemplate\ViewModel;
 
 class TemplateTest extends TestCase
 {
@@ -20,7 +20,7 @@ class TemplateTest extends TestCase
     public function testRender()
     {
         $controller = \Mockery::mock(Controller::class);
-        $viewData = \Mockery::mock(ViewData::class);
+        $viewData = \Mockery::mock(ViewModel::class);
 
         $controller
             ->shouldReceive('render')

@@ -35,9 +35,9 @@ class Template
     }
 
     /**
-     * @param ViewData $data
+     * @param ViewModel $data
      */
-    public function render(ViewData $data): void
+    public function render(ViewModel $data): void
     {
         $this->controller->render($data);
     }

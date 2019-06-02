@@ -17,14 +17,14 @@ namespace WordPressTemplate;
  * Interface ViewData
  * @package WordPressTemplate
  */
-interface ViewData
+interface ViewModel
 {
     /**
-     * Retrieve the Data to Inject to the Template Engine
+     * Retrieve the Model to Inject to the Template Engine
      *
      * @return mixed
      */
-    public function data();
+    public function model();
 
     /**
      * Retrieve the Path Where the Template File is Located

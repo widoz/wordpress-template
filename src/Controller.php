@@ -22,8 +22,8 @@ interface Controller
     /**
      * Render Template
      *
-     * @param ViewData $data
+     * @param ViewModel $model
      * @return void
      */
-    public function render(ViewData $data): void;
+    public function render(ViewModel $model): void;
 }
