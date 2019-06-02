@@ -33,7 +33,7 @@ class Template
     /**
      * @param ViewData $data
      */
-    public function render(ViewData $data)
+    public function render(ViewData $data): void
     {
         $this->controller->render($data);
     }
