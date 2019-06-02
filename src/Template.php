@@ -13,6 +13,10 @@ declare(strict_types=1);
 
 namespace WordPressTemplate;
 
+/**
+ * Class Template
+ * @package WordPressTemplate
+ */
 class Template
 {
     /**
