@@ -13,6 +13,10 @@ declare(strict_types=1);
 
 namespace WordPressTemplate;
 
+/**
+ * Interface Controller
+ * @package WordPressTemplate
+ */
 interface Controller
 {
     /**
