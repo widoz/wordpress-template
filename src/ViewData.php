@@ -13,7 +13,23 @@ declare(strict_types=1);
 
 namespace WordPressTemplate;
 
+/**
+ * Interface ViewData
+ * @package WordPressTemplate
+ */
 interface ViewData
 {
+    /**
+     * Retrieve the Data to Inject to the Template Engine
+     *
+     * @return mixed
+     */
+    public function data();
 
+    /**
+     * Retrieve the Path Where the Template File is Located
+     *
+     * @return string
+     */
+    public function templatePath(): string;
 }
